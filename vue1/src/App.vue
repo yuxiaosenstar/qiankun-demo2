@@ -7,6 +7,11 @@
 <script>
 export default {
   name: 'App',
+  mounted() {
+    let s = document.createElement('script')
+    s.src = 'baidu'
+    document.body.appendChild(s)
+  },
 }
 </script>
 

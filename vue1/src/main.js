@@ -29,7 +29,8 @@ function render(props = {}) {
   }
 
   // 实例化子应用实例，根据是否有缓存vnode确定是否传入cachedNode
-  instance = newVueInstance(mainService.loadedApplicationMap['vue1'])
+  // instance = newVueInstance(mainService.loadedApplicationMap['vue1'])
+  instance = newVueInstance()
   instance.$mount(container ? container.querySelector('#app') : '#app')
   mainService.init('vue1', instance)
   mainService2 = mainService

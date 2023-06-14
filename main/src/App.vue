@@ -8,8 +8,20 @@
 </template>
 
 <script>
+import { doQiankun } from '@/app/qiankun'
 export default {
   name: 'App',
+  watch: {
+    $route(val) {
+      doQiankun(val)
+    },
+  },
+  mounted() {
+    doQiankun(this.$route)
+    // let s = document.createElement('script')
+    // s.src = 'baidu1'
+    // document.body.appendChild(s)
+  },
 }
 </script>
 

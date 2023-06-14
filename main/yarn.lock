@@ -4861,10 +4861,10 @@
   "resolved" "https://registry.npmmirror.com/punycode/-/punycode-2.3.0.tgz"
   "version" "2.3.0"
 
-"qiankun@^2.10.6":
-  "integrity" "sha512-SBtDrnGTCrJWf1za1mSeJHEu05LnfLiHMF3XygsP/H1LmtvAhS3nUiRn+FiIuSOwO8C7bWEr4acHv6nH2xbUzQ=="
-  "resolved" "https://registry.npmmirror.com/qiankun/-/qiankun-2.10.6.tgz"
-  "version" "2.10.6"
+"qiankun@^2.10.9":
+  "integrity" "sha512-+DOdKnmFMoMfIWZaoLaBVoHAPlEWg529ZtIBnoNLUTJq4CreHIhXjnqc0mlxCCg4axZKtcORDPMAk4kPG6IH3A=="
+  "resolved" "https://registry.npmmirror.com/qiankun/-/qiankun-2.10.9.tgz"
+  "version" "2.10.9"
   dependencies:
     "@babel/runtime" "^7.10.5"
     "import-html-entry" "^1.14.5"
